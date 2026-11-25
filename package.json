@@ -1,0 +1,26 @@
+{
+  "name": "uzkit",
+  "version": "0.1.0",
+  "description": "O'zbek dasturchilari uchun utilitalar: telefon, lotin ↔ kirill, so'm formati, sonni so'z bilan yozish, avto raqam, pasport, JShShIR",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": ["src"],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["uzbekistan", "uzbek", "uz", "transliteration", "cyrillic", "latin", "phone", "sum", "som", "pinfl", "number-to-words", "validation"],
+  "author": "Shaxzod (https://sheyxzad.uz)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/Sheyxzad999/uzkit.git" },
+  "homepage": "https://github.com/Sheyxzad999/uzkit#readme",
+  "bugs": "https://github.com/Sheyxzad999/uzkit/issues"
+}

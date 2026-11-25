@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f1d2e"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c3e6"/>
+      <stop offset="1" stop-color="#3ddc6f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#0099b5" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0099b5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <clipPath id="card"><rect width="1280" height="400" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#dots)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#glow)"/>
+
+  <!-- bayroq chiziqlari -->
+  <rect x="0" y="388" width="1280" height="4" fill="#0099b5"/>
+  <rect x="0" y="392" width="1280" height="1.5" fill="#ce1126"/>
+  <rect x="0" y="393.5" width="1280" height="6.5" fill="#1eb53a"/>
+
+  </g>
+
+  <!-- chap tomon: nom -->
+  <g font-family="'SF Pro Display','Segoe UI',Inter,Helvetica,Arial,sans-serif">
+    <g transform="translate(80,92)">
+      <circle cx="14" cy="14" r="14" fill="#0099b5"/>
+      <path d="M 18 6 a 9 9 0 1 0 0 16 a 7 7 0 1 1 0 -16 z" fill="#fff"/>
+      <text x="40" y="20" font-size="18" fill="#8aa4bf" letter-spacing="3" font-weight="600">OPEN SOURCE · ZERO DEPENDENCY</text>
+    </g>
+    <text x="76" y="218" font-size="118" font-weight="800" fill="url(#title)" letter-spacing="-4">uzkit</text>
+    <text x="82" y="270" font-size="28" fill="#e6edf3" font-weight="500">Oʻzbek dasturchilari uchun utilitalar</text>
+    <text x="82" y="312" font-size="20" fill="#8aa4bf">telefon · lotin ↔ kirill · soʻm · sonni soʻz bilan · avto raqam · JShShIR</text>
+  </g>
+
+  <!-- o'ng tomon: kod oynasi -->
+  <g transform="translate(740,52)">
+    <rect width="470" height="300" rx="14" fill="#0d1726" stroke="#1f3247"/>
+    <circle cx="24" cy="24" r="6" fill="#ff5f57"/>
+    <circle cx="44" cy="24" r="6" fill="#febc2e"/>
+    <circle cx="64" cy="24" r="6" fill="#28c840"/>
+    <g font-family="'SF Mono',Menlo,Consolas,monospace" font-size="15.5">
+      <text x="24" y="74"><tspan fill="#ff7b72">import</tspan><tspan fill="#e6edf3"> * </tspan><tspan fill="#ff7b72">as</tspan><tspan fill="#e6edf3"> uz </tspan><tspan fill="#ff7b72">from</tspan><tspan fill="#a5d6ff"> 'uzkit'</tspan></text>
+      <text x="24" y="116" fill="#e6edf3">uz.<tspan fill="#d2a8ff">formatPhone</tspan>(<tspan fill="#a5d6ff">'901234567'</tspan>)</text>
+      <text x="24" y="138" fill="#3ddc6f">// '+998 90 123 45 67'</text>
+      <text x="24" y="178" fill="#e6edf3">uz.<tspan fill="#d2a8ff">toCyrillic</tspan>(<tspan fill="#a5d6ff">"Oʻzbekiston"</tspan>)</text>
+      <text x="24" y="200" fill="#3ddc6f">// 'Ўзбекистон'</text>
+      <text x="24" y="240" fill="#e6edf3">uz.<tspan fill="#d2a8ff">sumToWords</tspan>(<tspan fill="#79c0ff">1250000</tspan>)</text>
+      <text x="24" y="262" fill="#3ddc6f">// 'bir million ikki yuz ellik ming soʻm'</text>
+    </g>
+  </g>
+</svg>
